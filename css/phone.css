@@ -88,6 +88,11 @@
     font-size: 3rem;
 }
 
+.banner #ban1 #h-and-p h2 {
+    margin: 24px 0px;
+}
+
+
 .banner #ban1{
     flex-direction: column-reverse;
     /* border: 2px solid black; */
