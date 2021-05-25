@@ -1,0 +1,304 @@
+
+
+
+/* Navigation Section  */
+
+
+#navbar{
+    /* border: 2px solid red; */
+    width: 985px;
+    height: 970px;
+    flex-direction: column;
+    
+}
+
+
+#navbar ul{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 36px;
+}
+
+#navbar ul li a{
+    padding: 28px 210px;
+    margin: 8px 30px;
+    border-radius: 90px;
+}
+
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: cornsilk;
+    filter: drop-shadow(2px 4px 15px red);
+}
+
+.item a{
+    font-size: 4.5rem;
+}
+
+
+#logo img{
+    height: 240px;
+    border-radius: 150px;
+}
+
+/* Home Section */
+
+#home{
+    /* border: 2px solid black; */
+    width: 588px;
+    height: 1000px;
+}
+
+#home::before{
+    height: 980px;
+    width: 996px;
+}
+
+
+#home p{
+    color: darkblue;
+    font-size: 2.8rem;
+}
+
+/* Banner Section */
+.banner #ban {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 222px 0px;
+    flex-direction: column;
+    width: 960px;
+    height: 1600px;
+}
+
+.banner #ban img {
+    height: 660px;
+    width: 990px;
+    border-radius: 32px;
+}
+
+.banner #ban #h-and-p {
+    /* border: 2px solid green; */
+    width: 954px;
+    height: 900px;
+}
+
+.banner #ban #h-and-p p{
+
+    font-size: 3rem;
+}
+
+.banner #ban1{
+    flex-direction: column-reverse;
+    /* border: 2px solid black; */
+    width: 956px;
+    height: 1600px;
+}
+
+.banner #ban1 img {
+    height: 660px;
+    width: 990px;
+    border-radius: 32px;
+    padding: 80px -1px;
+    
+}
+
+.banner #ban1 #h-and-p {
+
+    /* border: 2px solid green; */
+    width: 950px;
+}
+
+.banner #ban1 #h-and-p p{
+
+    font-size: 3rem;
+}
+
+/* Services Section */
+
+#services-container {
+    /* border: 2px solid blue; */
+    margin-top: 225px;
+    width: 956px;
+    height: 4045px;
+}
+
+#services-container::before {
+    
+    height: 500px;
+    width: 996px;
+    
+}
+
+#services {
+    margin: 310px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#services .box {
+    border: 2px solid brown;
+    border-radius: 24px;
+    padding: 34px 0px;
+    width: 100%;
+    margin: 16px 18px;
+    background-color: beige;
+}
+
+#services .box img {
+    height: 470px;
+    display: block;
+    margin: auto;
+    border-radius: 16px;
+}
+
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+    color: midnightblue;
+    font-size: 3rem;
+}
+
+/* Clients Section */
+
+#client-section {
+    height: 2050px;
+    position: relative;
+    /* border: 2px solid green; */
+    width: 956px;
+    margin: 420px 0px;
+}
+
+#client-section::before {
+   
+    width: 104%;
+    height: 378px;
+    
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 185px 0px;
+    flex-direction: column;
+}
+
+
+#clients img {
+    height: 250px;
+    border-radius: 150px;
+}
+
+
+/* About Us Section */
+
+#aboutus {
+    /* border: 2px solid red; */
+    margin-top: 52px;
+    height: 1450px;
+    width: 956px;
+}
+
+
+#aboutus::before {
+   
+    width: 996px;
+    height: 1450px;
+    
+}
+
+#aboutus p {
+    color: black;
+    margin: 110px;
+    font-family: 'Fredoka One';
+    font-size: 3rem;
+}
+
+/* Contact Us Section */
+
+#contact {
+    position: relative;
+    /* border: 2px solid black; */
+    width: 956px;
+    margin: 32px 0px;
+}
+
+
+#contact::before {
+   
+    width: 104%;
+    height: 105%;
+    
+}
+
+#contact-box label {
+    font-size: 5.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 32px;
+    font-size: 3rem;
+    color: darkblue;
+    font-family: 'Bree Serif';
+    background-color: beige;
+}
+
+
+.btns{
+    flex-direction: column;
+}
+
+.btnstyle{
+    padding: 16px 60px;
+    margin: 54px 16px;
+    background-color: yellow;
+    color: #231e1ef7;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 78px;
+    font-family: 'Fredoka One';
+    margin-right: -54px;
+}
+
+/* Footer Section */
+
+footer {
+    background: black;
+    color: white;
+    padding: 30px 20px;
+    opacity: 1; 
+    margin-top: 58px;
+    width: 956px;
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+/* Utilites Classes */
+
+.h-primary {
+    font-size: 7.5rem;
+    padding: 50px;
+    
+}
+
+
+.h-secondary {
+    font-size: 7.3rem;
+    padding: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    margin: 90px 0px;
+    border-radius: 90px;
+    font-size: 5.5rem;
+}
