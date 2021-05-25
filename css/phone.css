@@ -114,12 +114,16 @@
     font-size: 3rem;
 }
 
+.banner #ban #h-and-p h2 {
+    margin: 16px 0px;
+}
+
 /* Services Section */
 
 #services-container {
     /* border: 2px solid blue; */
     margin-top: 225px;
-    width: 956px;
+    width: 950px;
     height: 4045px;
 }
 
